@@ -27,7 +27,7 @@
 This project is a web portfolio that would look like an extension of your resume to showcase your work and other stuff.
 <br/>
 
-Get resume here: [Canva](https://www.canva.com/templates/EAE8mhdnw_g-grey-clean-cv-resume-photo/)
+Get resume template here: [Canva](https://www.canva.com/templates/EAE8mhdnw_g-grey-clean-cv-resume-photo/)
 
 ### Built With
 
@@ -70,7 +70,7 @@ Steps on how to install the project locally:
 - [x] Works
 - [x] Skills
 - [x] Responsiveness
-- [x] Toogle Button
+- [x] Toogle Button (Grayscale & Color)
 
 <!-- CONTRIBUTING -->
 
