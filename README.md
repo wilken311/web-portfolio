@@ -3,10 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="public/images/react.png" alt="Logo" width="80" height="80">
-  </a>
-
+  
+  <img src="public/images/react.png" alt="Logo" width="80" height="80">
   <h3 align="center">Web Portfolio</h3>
   <h4>Resume Layout</h4>
 
