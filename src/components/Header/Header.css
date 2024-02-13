@@ -1,0 +1,111 @@
+/* Not updated. Please refer to .scss format */
+.backdrop-close {
+  display: none;
+}
+
+.backdrop {
+  position: fixed;
+  display: block;
+  /* opacity: 0; */
+  transition: opacity 500ms linear;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  position: relative;
+  margin-top: 2rem;
+  text-align: start;
+}
+
+.header-developer {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-developer__name {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: #464a4e;
+  letter-spacing: 1rem;
+}
+
+.header-developer__darkmode {
+  display: none;
+}
+
+.header-position {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1rem;
+  color: #464a4e;
+}
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: #464a4e;
+  display: block;
+  margin: 0.6rem 0;
+}
+
+@media (min-width: 40rem) {
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    position: relative;
+    margin-top: 2rem;
+    text-align: start;
+  }
+
+  .header-developer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-developer__name {
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    color: #464a4e;
+    letter-spacing: 1rem;
+  }
+
+  .header-developer__darkmode {
+    display: flex;
+    width: 20%;
+    justify-content: right;
+  }
+
+  .header-position {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    color: #464a4e;
+  }
+
+  .toggle-button {
+    display: none;
+  }
+}

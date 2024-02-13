@@ -1,0 +1,37 @@
+$blacknwhite-primary: #f4f4f4;
+$colored-primary: #9be2ff;
+
+.photo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-loading-container {
+  display: flex;
+  flex-direction: row;
+  background-color: $blacknwhite-primary;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo__item--image {
+  width: 100%;
+  max-width: 40rem;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.theme-gray {
+  background-color: $blacknwhite-primary;
+  filter: grayscale(100%);
+}
+
+.theme-colored {
+  background-color: $colored-primary;
+  filter: grayscale(0%);
+}

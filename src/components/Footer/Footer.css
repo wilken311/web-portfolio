@@ -1,0 +1,8 @@
+.main-footer {
+    text-align: left;
+}
+
+.main-footer__items {
+    list-style-type: none;
+    padding-left: 2rem;
+}
