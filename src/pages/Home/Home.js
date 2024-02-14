@@ -39,7 +39,7 @@ const Home = () => {
                 <span className="about-me__item2--contact--logo">
                   <FaMobileAlt />
                 </span>
-                +63991-821-6500
+                +63927-219-7087
               </div>
               <div>
                 <span className="about-me__item--contact--logo">
@@ -85,7 +85,7 @@ const Home = () => {
                 </span>
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1ZIhsC0AdHo-8Gp6q96XcTg-Ci-qn8y5h/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1_vq1wf-HGF2SZGirdy50f56jzVZoK4L3/view?usp=sharing"
                   rel="noopener noreferrer"
                 >
                   Resume
