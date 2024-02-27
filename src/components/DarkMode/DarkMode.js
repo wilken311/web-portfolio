@@ -1,4 +1,4 @@
-import React, { useContext, useCallback } from 'react';
+import React, { useContext } from 'react';
 // import './DarkMode.css';
 import './DarkMode.scss';
 import { ThemeContext } from '../../context/ThemeContextProvider';

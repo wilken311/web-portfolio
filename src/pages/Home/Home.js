@@ -13,7 +13,7 @@ import {
 import Layout from '../../components/Layout/Layout';
 import { ThemeContext } from '../../context/ThemeContextProvider';
 import Photos from '../../components/Photos/Photos';
-
+import Resume from '../../components/Resume/wilken-resume.pdf';
 const Home = () => {
   const { isColored } = useContext(ThemeContext);
   return (
@@ -83,11 +83,7 @@ const Home = () => {
                 <span className="about-me__item--contact--logo">
                   <FaFilePdf />
                 </span>
-                <a
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1_vq1wf-HGF2SZGirdy50f56jzVZoK4L3/view?usp=sharing"
-                  rel="noopener noreferrer"
-                >
+                <a target="_blank" href={Resume} rel="noopener noreferrer">
                   Resume
                 </a>
               </div>

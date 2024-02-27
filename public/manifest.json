@@ -10,12 +10,12 @@
     {
       "src": "wmlogo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "150x84"
     },
     {
       "src": "wmlogo.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "150x84"
     }
   ],
   "start_url": ".",

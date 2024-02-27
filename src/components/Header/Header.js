@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-// import './Header.css';
 import './Header.scss';
 import DarkMode from '../DarkMode/DarkMode';
 import NavBar from '../NavBar/NavBar';
